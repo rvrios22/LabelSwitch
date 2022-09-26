@@ -187,6 +187,7 @@ const changeLabel = () => {
     let text = document.getElementById('nutName').innerHTML
 
     if(text == nutName[0]){
+        document.body.style.backgroundColor = '#F9CE2D'
         document.getElementById('nutName').innerHTML = nutName[1]
         document.getElementById('servings').innerHTML = servings[1]
         document.getElementById('servingSize').innerHTML = servingSize[1]
@@ -216,6 +217,7 @@ const changeLabel = () => {
         document.getElementById('potassiumGrams').innerHTML = potassiumGrams[1]
         document.getElementById('potassiumPercent').innerHTML = potassiumPercent[1]
     } else if (text == nutName[1]) {
+        document.body.style.backgroundColor = '#0CEB6A '
         document.getElementById('nutName').innerHTML = nutName[2]
         document.getElementById('servings').innerHTML = servings[2]
         document.getElementById('servingSize').innerHTML = servingSize[2]
@@ -245,6 +247,7 @@ const changeLabel = () => {
         document.getElementById('potassiumGrams').innerHTML = potassiumGrams[2]
         document.getElementById('potassiumPercent').innerHTML = potassiumPercent[2]
     } else if (text == nutName[2]) {
+        document.body.style.backgroundColor = '#FFE800'
         document.getElementById('nutName').innerHTML = nutName[3]
         document.getElementById('servings').innerHTML = servings[3]
         document.getElementById('servingSize').innerHTML = servingSize[3]
@@ -274,6 +277,7 @@ const changeLabel = () => {
         document.getElementById('potassiumGrams').innerHTML = potassiumGrams[3]
         document.getElementById('potassiumPercent').innerHTML = potassiumPercent[3]
     } else{
+        document.body.style.backgroundColor = '#d65504'
         document.getElementById('nutName').innerHTML = nutName[0]
         document.getElementById('servings').innerHTML = servings[0]
         document.getElementById('servingSize').innerHTML = servingSize[0]
