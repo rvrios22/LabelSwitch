@@ -1,6 +1,33 @@
 const labels = [
     {
-        nut: 'your mummy'
+        nut: 'your mummy',
+        servings: '',
+        servingSize: '',
+        calories: '',
+        fatGrams: '',
+        fatPercent: '',
+        satFatGrams: '',
+        satFatPercet: '',
+        transFatGrams: '',
+        cholesterolGrams: '',
+        choleserolPercet: '',
+        sodiumGrams: '',
+        sodiumPercet: '',
+        carbGrams: '',
+        carbPercent: '',
+        fiberPercent: '',
+        sugarsGrams:'',
+        addedSugarsGrams: '',
+        addedSugarsPercet: '',
+        proteinGrams: '',
+        vitDGrams: '',
+        vitDPercent: '',
+        calGrams: '',
+        calPercent: '',
+        ironGrams: '',
+        ironPercent: '',
+        potassiumGrams: '',
+        potassiumPercent: '',
     },
     {
         nut: 'my mummy'
@@ -15,13 +42,11 @@ labels.forEach(item => {
 console.log(labelInfo)
 
 const changeLabel = () => {
-    let i = 0
-    console.log('before',i)
-    document.getElementById('nut').innerHTML = labelInfo[i]
-    i += 1
-    if(i == 1){
-        document.getElementById
+    let text = document.getElementById('nut').innerHTML
+
+    if(text == labelInfo[0]){
+        document.getElementById('nut').innerHTML = labelInfo[1]
+    } else{
+        document.getElementById('nut').innerHTML = labelInfo[0]
     }
-
-
 }
