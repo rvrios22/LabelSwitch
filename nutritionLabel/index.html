@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nutrition Label</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="label">
+      <header>
+        <h1 class="bold" id="nut">Nutrition Facts</h1>
+        <div class="divider"></div>
+        <p> <span id="servings">8</span> servings per container</p>
+        <p class="bold">Serving size <span class="right" id="servingSize">2/3 cup (55g)</span></p>
+      </header>
+      <div class="divider lg"></div>
+      <div class="calories-info">
+        <p class="bold sm-text">Amount per serving</p>
+        <h1>Calories <span class="right" id="calories">230</span></h1>
+      </div>
+      <div class="divider md"></div>
+      <div class="daily-value sm-text">
+        <p class="right bold no-divider">% Daily Value *</p>
+        <div class="divider"></div>
+        <p><span class="bold">Total Fat</span> <span id="fatGrams">8g</span> <span class="bold right" id="fatPercent">10%</span></p>
+        <p class="indent no-divider">Saturated Fat <span id="satFatGrams">1g</span><span class="bold right" id="satFatPercent">5%</span></p>
+        <div class="divider"></div>
+        <p class="indent no-divider"><i>Trans</i> Fat <span id="transFatGrams">0g</span></p>
+        <div class="divider"></div>
+        <p><span class="bold">Cholesterol</span> <span id="cholesterolGrams"></span> 0mg <span class="right bold" id="cholesterolPercent">0%</span></p>
+        <p><span class="bold">Sodium</span> <span id="sodiumGrams">160mg</span> <span class="right bold" id="sodiumPercent">7%</span></p>
+        <p><span class="bold">Total Carbohydrate</span> <span id="carbGrams">37g</span> <span class="right bold" id="carbPercent">13%</span></p>
+        <p class="indent no-divider">Dietary Fiber <span id="fiberPercent">4g</span> </p>
+        <div class="divider"></div>
+        <p class="indent no-divider">Total Sugars <span id="sugarsGrams">12g</span></p>
+        <div class="divider dbl-indent"></div>
+        <p class="dbl-indent no-divider">Includes <span id="addedSugarsGrams">10g</span> Added Sugars <span class="right bold" id="addedSugarsPercent">20%</span>
+        <div class="divider"></div>
+        <p class="no-divider"><span class="bold">Protein</span> <span id="proteinGrams">3g</span></p>
+        <div class="divider lg"></div>
+        <p>Vitamin D <span id="vitDGrams">2mcg</span> <span class="right" id="vitDpercent">10%</span></p>
+        <p>Calcium <span id="calGram">260mg</span>  <span class="right" id="calPercent">20%</span></p>
+        <p>Iron <span id="ironGrams">8mg</span> <span class="right" id="proteinPercent">45%</span></p>
+        <p class="no-divider">Potassium <span id="potassiumGrams">235mg</span> <span class="right" id="potassiumPercent">6%</span></p>
+      </div>
+      <div class="divider md"></div>
+      <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.</p>
+    </div>
+    <div class="changeButton">
+        <button onclick="changeLabel()">Change Label</button>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
