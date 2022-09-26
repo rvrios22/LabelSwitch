@@ -10,6 +10,11 @@
     font-family: 'Open Sans', sans-serif;
   }
   
+  .nutName{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
   .label {
     border: 2px solid black;
     width: 270px;

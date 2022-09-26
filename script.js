@@ -1,97 +1,127 @@
 const labels = [
     {
-        nut: 'your mummy',
-        servings: 'd',
-        servingSize: 'd',
-        calories: 'd',
-        fatGrams: 'd',
-        fatPercent: 'd',
-        satFatGrams: 'd',
-        satFatPercet: 'd',
-        transFatGrams: 'd',
-        cholesterolGrams: 'd',
-        choleserolPercet: 'd',
-        sodiumGrams: 'd',
-        sodiumPercet: 'd',
-        carbGrams: 'd',
-        carbPercent: 'd',
-        fiberPercent: 'd',
-        sugarsGrams:'d',
-        addedSugarsGrams: 'd',
-        addedSugarsPercet: 'd',
-        proteinGrams: 'd',
-        vitDGrams: 'd',
-        vitDPercent: 'd',
-        calGrams: 'd',
-        calPercent: 'd',
-        ironGrams: 'd',
-        ironPercent: 'd',
-        potassiumGrams: 'd',
-        potassiumPercent: 'd',
+        nutName: 'Wok Fried Beans',
+        servings: '8',
+        servingSize: '2/3 cup (55g)',
+        calories: '230',
+        fatGrams: '8g',
+        fatPercent: '10%',
+        satFatGrams: '1g',
+        satFatPercet: '5%',
+        transFatGrams: '0g',
+        cholesterolGrams: '160mg',
+        choleserolPercet: '0%',
+        sodiumGrams: '160mg',
+        sodiumPercet: '7%',
+        carbGrams: '37g',
+        carbPercent: '13%',
+        fiberGrams: '4g',
+        sugarsGrams:'12g',
+        addedSugarsGrams: '10g',
+        addedSugarsPercet: '20%',
+        proteinGrams: '3g',
+        vitDGrams: '2mcg',
+        vitDPercent: '10%',
+        calGrams: '260mg',
+        calPercent: '20%',
+        ironGrams: '8mg',
+        ironPercent: '45%',
+        potassiumGrams: '235mg',
+        potassiumPercent: '6%',
     },
     {
-        nut: 'my mummy',
-        servings: 'w',
-        servingSize: 'w',
-        calories: 'w',
-        fatGrams: 'w',
-        fatPercent: 'w',
-        satFatGrams: 'w',
-        satFatPercet: 'w',
-        transFatGrams: 'w',
-        cholesterolGrams: 'w',
-        choleserolPercet: 'w',
-        sodiumGrams: 'w',
-        sodiumPercet: 'w',
-        carbGrams: 'w',
-        carbPercent: 'w',
-        fiberPercent: 'w',
-        sugarsGrams:'w',
-        addedSugarsGrams: 'w',
-        addedSugarsPercet: 'w',
-        proteinGrams: 'w',
-        vitDGrams: 'w',
-        vitDPercent: 'w',
-        calGrams: 'w',
-        calPercent: 'w',
-        ironGrams: 'w',
-        ironPercent: 'w',
-        potassiumGrams: 'w',
-        potassiumPercent: 'w',
+        nutName: 'Packer Jacks',
+        servings: '12',
+        servingSize: '1/8 cup (25g)',
+        calories: '250',
+        fatGrams: '10g',
+        fatPercent: '15%',
+        satFatGrams: '3g',
+        satFatPercet: '10%',
+        transFatGrams: '3g',
+        cholesterolGrams: '200mg',
+        choleserolPercet: '1%',
+        sodiumGrams: '200mg',
+        sodiumPercet: '10%',
+        carbGrams: '45g',
+        carbPercent: '15%',
+        fiberGrams: '2g',
+        sugarsGrams:'20g',
+        addedSugarsGrams: '18g',
+        addedSugarsPercet: '30%',
+        proteinGrams: '1g',
+        vitDGrams: '0mcg',
+        vitDPercent: '0%',
+        calGrams: '20mg',
+        calPercent: '1%',
+        ironGrams: '10mg',
+        ironPercent: '50%',
+        potassiumGrams: '240mg',
+        potassiumPercent: '7%',
     },
     {
-        nut: 'our mummy',
-        servings: 't',
-        servingSize: 't',
-        calories: 't',
-        fatGrams: 't',
-        fatPercent: 't',
-        satFatGrams: 't',
-        satFatPercet: 't',
-        transFatGrams: 't',
-        cholesterolGrams: 't',
-        choleserolPercet: 't',
-        sodiumGrams: 't',
-        sodiumPercet: 't',
-        carbGrams: 't',
-        carbPercent: 't',
-        fiberPercent: 't',
-        sugarsGrams:'t',
-        addedSugarsGrams: 't',
-        addedSugarsPercet: 't',
-        proteinGrams: 't',
-        vitDGrams: 't',
-        vitDPercent: 't',
-        calGrams: 't',
-        calPercent: 't',
-        ironGrams: 't',
-        ironPercent: 't',
-        potassiumGrams: 't',
-        potassiumPercent: 't',
+        nutName: 'Binnie Toast Brunch',
+        servings: '8',
+        servingSize: '1 cup (73g)',
+        calories: '200',
+        fatGrams: '5g',
+        fatPercent: '7%',
+        satFatGrams: '0g',
+        satFatPercet: '0%',
+        transFatGrams: '0g',
+        cholesterolGrams: '120mg',
+        choleserolPercet: '0%',
+        sodiumGrams: '120mg',
+        sodiumPercet: '4%',
+        carbGrams: '25g',
+        carbPercent: '13%',
+        fiberGrams: '7g',
+        sugarsGrams:'10g',
+        addedSugarsGrams: '3g',
+        addedSugarsPercet: '10%',
+        proteinGrams: '5g',
+        vitDGrams: '4mcg',
+        vitDPercent: '17%',
+        calGrams: '300mg',
+        calPercent: '25%',
+        ironGrams: '10mg',
+        ironPercent: '50%',
+        potassiumGrams: '170mg',
+        potassiumPercent: '3%',
+    },
+    {
+        nutName: 'Bold Fish',
+        servings: '6',
+        servingSize: '1/3 cup (35g)',
+        calories: '220',
+        fatGrams: '10g',
+        fatPercent: '15%',
+        satFatGrams: '2g',
+        satFatPercet: '7%',
+        transFatGrams: '1g',
+        cholesterolGrams: '180mg',
+        choleserolPercet: '1%',
+        sodiumGrams: '190mg',
+        sodiumPercet: '10%',
+        carbGrams: '40g',
+        carbPercent: '22%',
+        fiberGrams: '3g',
+        sugarsGrams:'3g',
+        addedSugarsGrams: '1g',
+        addedSugarsPercet: '7%',
+        proteinGrams: '4g',
+        vitDGrams: '3mcg',
+        vitDPercent: '15%',
+        calGrams: '290mg',
+        calPercent: '26%',
+        ironGrams: '9mg',
+        ironPercent: '47%',
+        potassiumGrams: '257mg',
+        potassiumPercent: '7%',
     }
 ]
 
-let labelInfo = []
+let nutName = []
 let servings = []
 let servingSize = []
 let calories = []
@@ -106,7 +136,7 @@ let sodiumGrams = []
 let sodiumPercet = []
 let carbGrams = []
 let carbPercent = []
-let fiberPercent = []
+let fiberGrams = []
 let sugarsGram = []
 let addedSugarsGrams = []
 let addedSugarsPercet = []
@@ -121,7 +151,7 @@ let potassiumGrams = []
 let potassiumPercent = []
 
 labels.forEach(item => {
-    labelInfo.push(item.nut)
+    nutName.push(item.nutName)
     servings.push(item.servings)
     servingSize.push(item.servingSize)
     calories.push(item.calories)
@@ -136,7 +166,7 @@ labels.forEach(item => {
     sodiumPercet.push(item.sodiumPercet)
     carbGrams.push(item.carbGrams)
     carbPercent.push(item.carbPercent)
-    fiberPercent.push(item.fiberPercent)
+    fiberGrams.push(item.fiberGrams)
     sugarsGram.push(item.sugarsGrams)
     addedSugarsGrams.push(item.addedSugarsGrams)
     addedSugarsPercet.push(item.addedSugarsPercet)
@@ -154,10 +184,10 @@ labels.forEach(item => {
 
 
 const changeLabel = () => {
-    let text = document.getElementById('nut').innerHTML
+    let text = document.getElementById('nutName').innerHTML
 
-    if(text == labelInfo[0]){
-        document.getElementById('nut').innerHTML = labelInfo[1]
+    if(text == nutName[0]){
+        document.getElementById('nutName').innerHTML = nutName[1]
         document.getElementById('servings').innerHTML = servings[1]
         document.getElementById('servingSize').innerHTML = servingSize[1]
         document.getElementById('calories').innerHTML = calories[1]
@@ -172,7 +202,7 @@ const changeLabel = () => {
         document.getElementById('sodiumPercent').innerHTML = sodiumPercet[1]
         document.getElementById('carbGrams').innerHTML = carbGrams[1]
         document.getElementById('carbPercent').innerHTML = carbPercent[1]
-        document.getElementById('fiberPercent').innerHTML = fiberPercent[1]
+        document.getElementById('fiberGrams').innerHTML = fiberGrams[1]
         document.getElementById('sugarsGrams').innerHTML = sugarsGram[1]
         document.getElementById('addedSugarsGrams').innerHTML = addedSugarsGrams[1]
         document.getElementById('addedSugarsPercent').innerHTML = addedSugarsPercet[1]
@@ -185,8 +215,8 @@ const changeLabel = () => {
         document.getElementById('ironPercent').innerHTML = ironPercent[1]
         document.getElementById('potassiumGrams').innerHTML = potassiumGrams[1]
         document.getElementById('potassiumPercent').innerHTML = potassiumPercent[1]
-    } else if (text == labelInfo[1]) {
-        document.getElementById('nut').innerHTML = labelInfo[2]
+    } else if (text == nutName[1]) {
+        document.getElementById('nutName').innerHTML = nutName[2]
         document.getElementById('servings').innerHTML = servings[2]
         document.getElementById('servingSize').innerHTML = servingSize[2]
         document.getElementById('calories').innerHTML = calories[2]
@@ -201,7 +231,7 @@ const changeLabel = () => {
         document.getElementById('sodiumPercent').innerHTML = sodiumPercet[2]
         document.getElementById('carbGrams').innerHTML = carbGrams[2]
         document.getElementById('carbPercent').innerHTML = carbPercent[2]
-        document.getElementById('fiberPercent').innerHTML = fiberPercent[2]
+        document.getElementById('fiberGrams').innerHTML = fiberGrams[2]
         document.getElementById('sugarsGrams').innerHTML = sugarsGram[2]
         document.getElementById('addedSugarsGrams').innerHTML = addedSugarsGrams[2]
         document.getElementById('addedSugarsPercent').innerHTML = addedSugarsPercet[2]
@@ -214,9 +244,37 @@ const changeLabel = () => {
         document.getElementById('ironPercent').innerHTML = ironPercent[2]
         document.getElementById('potassiumGrams').innerHTML = potassiumGrams[2]
         document.getElementById('potassiumPercent').innerHTML = potassiumPercent[2]
+    } else if (text == nutName[2]) {
+        document.getElementById('nutName').innerHTML = nutName[3]
+        document.getElementById('servings').innerHTML = servings[3]
+        document.getElementById('servingSize').innerHTML = servingSize[3]
+        document.getElementById('calories').innerHTML = calories[3]
+        document.getElementById('fatGrams').innerHTML = fatGrams[3]
+        document.getElementById('fatPercent').innerHTML = fatPercent[3]
+        document.getElementById('satFatGrams').innerHTML = satFatGrams[3]
+        document.getElementById('satFatPercent').innerHTML = satFatPercet[3]
+        document.getElementById('transFatGrams').innerHTML = transFatGrams[3]
+        document.getElementById('cholesterolGrams').innerHTML = cholesterolGrams[3]
+        document.getElementById('cholesterolPercent').innerHTML = choleserolPercet[3]
+        document.getElementById('sodiumGrams').innerHTML = sodiumGrams[3]
+        document.getElementById('sodiumPercent').innerHTML = sodiumPercet[3]
+        document.getElementById('carbGrams').innerHTML = carbGrams[3]
+        document.getElementById('carbPercent').innerHTML = carbPercent[3]
+        document.getElementById('fiberGrams').innerHTML = fiberGrams[3]
+        document.getElementById('sugarsGrams').innerHTML = sugarsGram[3]
+        document.getElementById('addedSugarsGrams').innerHTML = addedSugarsGrams[3]
+        document.getElementById('addedSugarsPercent').innerHTML = addedSugarsPercet[3]
+        document.getElementById('proteinGrams').innerHTML = proteinGrams[3]
+        document.getElementById('vitDGrams').innerHTML = vitDGrams[3]
+        document.getElementById('vitDPercent').innerHTML = vitDPercent[3]
+        document.getElementById('calGrams').innerHTML = calGrams[3]
+        document.getElementById('calPercent').innerHTML = calPercent[3]
+        document.getElementById('ironGrams').innerHTML = ironGrams[3]
+        document.getElementById('ironPercent').innerHTML = ironPercent[3]
+        document.getElementById('potassiumGrams').innerHTML = potassiumGrams[3]
+        document.getElementById('potassiumPercent').innerHTML = potassiumPercent[3]
     } else{
-        document.getElementById('nut').innerHTML = labelInfo[0]
-        document.getElementById('nut').innerHTML = labelInfo[0]
+        document.getElementById('nutName').innerHTML = nutName[0]
         document.getElementById('servings').innerHTML = servings[0]
         document.getElementById('servingSize').innerHTML = servingSize[0]
         document.getElementById('calories').innerHTML = calories[0]
@@ -231,7 +289,7 @@ const changeLabel = () => {
         document.getElementById('sodiumPercent').innerHTML = sodiumPercet[0]
         document.getElementById('carbGrams').innerHTML = carbGrams[0]
         document.getElementById('carbPercent').innerHTML = carbPercent[0]
-        document.getElementById('fiberPercent').innerHTML = fiberPercent[0]
+        document.getElementById('fiberGrams').innerHTML = fiberGrams[0]
         document.getElementById('sugarsGrams').innerHTML = sugarsGram[0]
         document.getElementById('addedSugarsGrams').innerHTML = addedSugarsGrams[0]
         document.getElementById('addedSugarsPercent').innerHTML = addedSugarsPercet[0]
